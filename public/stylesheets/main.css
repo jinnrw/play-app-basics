@@ -1,0 +1,30 @@
+:root {
+  --color-markdown-code-bg: rgba(27, 31, 35, 0.05);
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+}
+
+code {
+  padding: .2em .4em;
+  margin: 0;
+  font-size: 85%;
+  background-color: var(--color-markdown-code-bg);
+  border-radius: 6px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Main */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.appContent {
+  margin-top: 30px;
+}

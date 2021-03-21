@@ -1,5 +1,55 @@
-@()
-
-@main("Welcome to Play") {
-  <h1>Welcome to Play!</h1>
+@() @main("Welcome to Play") {
+<main>
+  <h1>Welcome to my play-app-basics app!</h1>
+  <p>Built with Play framework and Scala.</p>
+  <p>
+    Source code:
+    <a
+      href="https://github.com/jinnrw/play-app-basics"
+      target="_blank"
+      rel="noopener"
+      >play-app-basics</a
+    >
+  </p>
+  <div class="appContent">
+    <h4>Routes</h4>
+    <ul>
+      <li>
+        <code><a href="/">/</a></code> -> Home page
+      </li>
+      <li>
+        <code>
+          <a href="/ping">/ping</a>
+        </code>
+        -> Check status
+      </li>
+      <li>
+        <code>
+          <a href="/names/all">/names/all</a>
+        </code>
+        -> Get all names
+      </li>
+      <li>
+        <code>
+          <a href="/names/1">/names/:id</a>
+        </code>
+        -> Get a specific name
+      </li>
+      <li>
+        <code>/post</code>
+        -> Add a name
+      </li>
+    </ul>
+  </div>
+  <div>
+    <h4>Controllers</h4>
+    <ul>
+      <li><code>index()</code></li>
+      <li><code>ping()</code></li>
+      <li><code>getAllNames()</code></li>
+      <li><code>getName(id:Long)</code></li>
+      <li><code>addName()</code></li>
+    </ul>
+  </div>
+</main>
 }
