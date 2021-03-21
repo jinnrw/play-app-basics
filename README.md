@@ -1,5 +1,6 @@
 # play-app-basics
-A basic web application built with Play framework.
+A basic web application built with Play framework.  
+See the demo in [Heroku](https://play-app-basics.herokuapp.com/).
 
 ## Routes
 - `/` -> Home page
