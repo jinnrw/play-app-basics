@@ -1,3 +1,26 @@
 [0m2021.03.20 23:10:05 INFO  Started: Metals version 0.10.0 in workspace '/Users/Jinn/Projects/play-app-basics/play-app-basics' for client vscode 1.54.3.[0m
 [0m2021.03.20 23:10:07 INFO  time: initialize in 1.99s[0m
 [0m2021.03.20 23:10:07 WARN  Build server is not auto-connectable.[0m
+Mar. 20, 2021 11:13:25 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+[0m2021.03.20 23:32:33 WARN  no build target for: /Users/Jinn/Projects/play-app-basics/play-app-basics/build.sbt[0m
+[0m2021.03.20 23:32:37 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+name := """play-app-basics"""
+organization := "jinnwang"
+
+version := "1.0-SNAPSHOT"
+
+lazy val root = (project in file(".")).enablePlugins(PlayScala)
+
+scalaVersion := "2.13.3"
+
+libraryDependencies += guice
+libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
+
+// Adds additional packages into Twirl
+//TwirlKeys.templateImports += "jinnwang.controllers._"
+
+// Adds additional packages into conf/routes
+// play.sbt.routes.RoutesKeys.routesImport += "jinnwang.binders._"
+
+[0m2021.03.20 23:32:39 INFO  time: code lens generation in 5.51s[0m
