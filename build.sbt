@@ -10,6 +10,7 @@ scalaVersion := "2.13.3"
 libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "5.0.0" % Test
 
+herokuAppName in Compile := "play-app-basics"
 // Adds additional packages into Twirl
 //TwirlKeys.templateImports += "jinnwang.controllers._"
 
