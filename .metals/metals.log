@@ -359,3 +359,6 @@ class HomeController @Inject() (val controllerComponents: ControllerComponents)
   }
 }
 
+[0m2021.03.21 00:50:09 WARN  no build target for: /Users/Jinn/Projects/play-app-basics/play-app-basics/build.sbt[0m
+Mar. 21, 2021 12:51:01 A.M. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 160
