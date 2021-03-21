@@ -19,3 +19,7 @@ See the demo in [Heroku](https://play-app-basics.herokuapp.com/).
 
 ## Models
 - Name: `final case class Name(id: String, name: String)`
+
+## Documentation
+My notes while learning how to deploy were documented here:
+- [Play Framework: deploy to Heroku](https://app.gitbook.com/@jinn-wang/s/web-development/scala-java/play-framework)
